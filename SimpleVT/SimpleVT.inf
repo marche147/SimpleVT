@@ -1,0 +1,32 @@
+;
+; SimpleVT.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=
+ClassGuid={29F67968-F270-4D71-AF68-E7B2DD484440}
+Provider=arch
+DriverVer=
+CatalogFile=arch.cat
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+
+
+[Manufacturer]
+%ManufacturerName%=Standard,NT$ARCH$
+
+[Standard.NT$ARCH$]
+
+
+[Strings]
+ManufacturerName=""
+ClassName=""
+DiskName="SimpleVT Source Disk"
