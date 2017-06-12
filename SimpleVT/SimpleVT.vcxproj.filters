@@ -40,5 +40,8 @@
     <MASM Include="lowlevel.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="vmx.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

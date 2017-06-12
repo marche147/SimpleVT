@@ -51,11 +51,36 @@ _StackPointer PROC
  ret
 _StackPointer ENDP
 
+_NextInstructionPointer PROC
+ mov rax, [rsp]
+ ret
+_NextInstructionPointer ENDP
+
 __sgdt PROC
  mov rax, rcx
  sgdt [rax]
  ret
 __sgdt ENDP
+
+__invd PROC ; what if we just "mov eax,cr3;mov cr3, eax"
+ invd
+ ret
+__invd ENDP
+
+__writeds PROC
+ mov ds, cx
+ ret
+__writeds ENDP
+
+__writees PROC
+ mov es, cx
+ ret
+__writees ENDP
+
+__writefs PROC
+ mov fs, cx
+ ret
+__writefs ENDP
 
 _ASM ENDS
 END

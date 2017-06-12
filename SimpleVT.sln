@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleVT", "SimpleVT\SimpleVT.vcxproj", "{60261939-5B70-49BC-933A-4AD0868B0191}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleVTGuestTest", "SimpleVTGuestTest\SimpleVTGuestTest.vcxproj", "{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -41,6 +43,18 @@ Global
 		{60261939-5B70-49BC-933A-4AD0868B0191}.Release|x86.ActiveCfg = Release|Win32
 		{60261939-5B70-49BC-933A-4AD0868B0191}.Release|x86.Build.0 = Release|Win32
 		{60261939-5B70-49BC-933A-4AD0868B0191}.Release|x86.Deploy.0 = Release|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Debug|ARM.ActiveCfg = Debug|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Debug|x64.ActiveCfg = Debug|x64
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Debug|x64.Build.0 = Debug|x64
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Debug|x86.ActiveCfg = Debug|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Debug|x86.Build.0 = Debug|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Release|ARM.ActiveCfg = Release|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Release|ARM64.ActiveCfg = Release|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Release|x64.ActiveCfg = Release|x64
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Release|x64.Build.0 = Release|x64
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Release|x86.ActiveCfg = Release|Win32
+		{6133F1B2-1F69-4760-855F-B33FAB8C8AD1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
