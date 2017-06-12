@@ -17,7 +17,9 @@ Tested on Windows 10 x64 14393.969 under VMWare Workstation Pro 12.5.6 build-552
 ## References
 
 [https://github.com/ionescu007/SimpleVisor][1]
+
 [Thread on KanXue][2]
+
 [Intel 64 and IA-32 Architectures Software Developer Manuals][3]
 
 [1]:https://github.com/ionescu007/SimpleVisor
